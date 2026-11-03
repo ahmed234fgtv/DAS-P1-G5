@@ -17,7 +17,6 @@ Tabla 1. Requisitos funcionales identificados en el Anexo I.
 | RF09 | Estadísticas de tasa de rebote | El sistema deberá proporcionar a los administradores y redactores estadísticas sobre las tasas de rebote. |
 | RF10 | Estadísticas de conversión | El sistema deberá proporcionar a los administradores y redactores estadísticas sobre la conversión de lectores a suscriptores. |
 
-**Nota:** Las indicaciones sobre HTTP/REST, Stripe y PostgreSQL 19 son restricciones tecnológicas del enunciado y no se han formulado como requisitos funcionales independientes.
 
 ## Requisitos de dominio
 
