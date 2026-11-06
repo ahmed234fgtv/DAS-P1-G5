@@ -7,7 +7,7 @@
 
 El Anexo I exige que los lectores puedan suscribirse a diferentes noticias y darse de baja **de forma anónima**. No concreta cómo acredita una persona anónima que puede gestionar una suscripción determinada. Tampoco indica qué debe ocurrir con el registro de una suscripción después de su baja: podría eliminarse o conservarse como inactivo. Estas opciones producen consecuencias diferentes para las consultas de suscripciones vigentes y para la disponibilidad de información histórica.
 
-El problema es determinar **cómo representar el alta y la baja de una suscripción, cómo autorizar su gestión sin identificación nominal y cómo reflejar la baja en los datos**. Las soluciones comparadas resuelven conjuntamente estas responsabilidades del ciclo de vida. El Anexo no exige notificaciones ni envíos automáticos de noticias; esta decisión no los introduce. Tampoco presupone que suscribirse a una noticia equivalga necesariamente a contratar una modalidad de pago.
+El problema es determinar **cómo representar el alta y la baja de una suscripción, cómo autorizar su gestión sin identificación nominal y cómo reflejar la baja en los datos**. Las soluciones comparadas resuelven conjuntamente estas responsabilidades del ciclo de vida. El Anexo no exige notificaciones ni envíos automáticos de noticias; esta decisión no los introduce. El canal de suscripciones del Anexo se representa como un servicio al que accede el front-end mediante HTTP/REST para gestionar las altas y bajas anónimas, sin incorporar mecanismos de entrega automática de noticias que el Anexo no exige expresamente. Tampoco presupone que suscribirse a una noticia equivalga necesariamente a contratar una modalidad de pago.
 
 ## Decision Drivers
 
@@ -36,7 +36,7 @@ Chosen option: "0003-1 — Clave opaca por suscripción y baja lógica", because
 
 ### Confirmation
 
-El UML deberá reflejar una **SuscripcionNoticia** identificable, relacionada con la noticia a la que corresponde, y las operaciones de **alta y baja** en un componente responsable de gestionarla. La suscripción tendrá un indicador de vigencia o una fecha de baja que permita distinguir suscripciones activas e inactivas. Debe representarse la comprobación de la **referencia opaca de gestión** para solicitar la baja, sin exigir una cuenta nominal. La arquitectura no añadirá mecanismos de entrega de noticias, suspensión por impago ni un historial independiente que esta decisión no selecciona. Las consultas del servicio deberán distinguir suscripciones vigentes de las dadas de baja.
+El UML deberá reflejar una **SuscripcionNoticia** identificable, relacionada con la noticia a la que corresponde, y las operaciones de **alta y baja** en un componente responsable de gestionarla. La suscripción tendrá un indicador de vigencia o una fecha de baja que permita distinguir suscripciones activas e inactivas. Debe representarse la comprobación de la **referencia opaca de gestión** para solicitar la baja, sin exigir una cuenta nominal. La arquitectura no añadirá mecanismos de entrega de noticias, suspensión por impago ni un historial independiente que esta decisión no selecciona. Las consultas del servicio deberán distinguir suscripciones vigentes de las dadas de baja. El **servicio del canal de suscripciones** y su relación con el front-end mediante HTTP/REST deberán aparecer en el UML.
 
 ## Pros and Cons of the Options
 
