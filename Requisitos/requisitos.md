@@ -2,27 +2,29 @@
 
 ## Requisitos funcionales
 
-| Identificador | Nombre | Descripción |
+| ID | Nombre | Descripción |
 | --- | --- | --- |
-| RF01 | Diferenciación del tipo de cliente | El sistema deberá ser capaz de distinguir individualmente a cada cliente que acceda al periódico digital. |
+| RF01 | Diferenciación de clientes | El sistema deberá ser capaz de distinguir a cada cliente que acceda al periódico digital. |
 | RF02 | Suscripción a noticias | El sistema deberá permitir a los lectores suscribirse a diferentes noticias. |
 | RF03 | Baja de suscripciones a noticias | El sistema deberá permitir a los suscriptores darse de baja de sus suscripciones a noticias. |
-| RF04 | Gestión de modalidades de facturación | El sistema deberá gestionar tres modalidades de facturación: trimestral, semestral y anual. |
-| RF05 | Gestión de pagos online | El sistema deberá gestionar los pagos online correspondientes a las modalidades de facturación establecidas. |
+| RF04 | Gestión de modalidades de facturación | El sistema deberá gestionar los ciclos de facturación de las suscripciones mediante tres modalidades: trimestral, semestral y anual. |
+| RF05 | Gestión de pagos online | El sistema deberá gestionar los pagos online de las suscripciones. |
 | RF06 | Reintentos de pagos fallidos | El sistema deberá permitir reintentar una petición de pago cuando esta haya fallado. |
-| RF07 | Estadísticas de noticias más leídas | El sistema deberá proporcionar estadísticas que permitan identificar las noticias más leídas. |
-| RF08 | Estadísticas de tiempo de permanencia | El sistema deberá proporcionar estadísticas sobre el tiempo de permanencia de los usuarios. |
-| RF09 | Estadísticas de tasa de rebote | El sistema deberá proporcionar estadísticas sobre las tasas de rebote. |
-| RF10 | Estadísticas de conversión | El sistema deberá proporcionar estadísticas sobre la conversión de lectores a suscriptores. |
+| RF07 | Estadísticas de noticias más leídas | El sistema deberá proporcionar a los administradores y redactores estadísticas que permitan identificar las noticias más leídas. |
+| RF08 | Estadísticas de tiempo de permanencia | El sistema deberá proporcionar a los administradores y redactores estadísticas sobre el tiempo de permanencia de los usuarios. |
+| RF09 | Estadísticas de tasa de rebote | El sistema deberá proporcionar a los administradores y redactores estadísticas sobre las tasas de rebote. |
+| RF10 | Estadísticas de conversión | El sistema deberá proporcionar a los administradores y redactores estadísticas sobre la conversión de lectores a suscriptores. |
 
-## Requisitos de dominio
+## Requisitos de dominio (provisionales)
 
-| Identificador | Nombre | Descripción |
+| ID | Nombre | Descripción |
 | --- | --- | --- |
-| RD1 | Categorías de noticias | Las noticias podrán pertenecer a las siguientes categorías: política, economía, sociedad, nacionales o internacionales. |
-| RD2.1 | Facturación trimestral | La modalidad trimestral contempla un pago recurrente de 70 € cada tres meses, con descuento base. |
-| RD2.2 | Facturación semestral | La modalidad semestral contempla un pago recurrente de 130 € cada seis meses, con descuento intermedio. |
-| RD2.3 | Facturación anual | La modalidad anual contempla un pago único recurrente de 190 € cada doce meses, con el máximo ahorro por mes. |
-| RD3 | Anonimato de las suscripciones | La suscripción a noticias y la baja de dichas suscripciones podrán realizarse de manera anónima. |
-| RD4 | Límite de reintentos de pago | Ante una petición de pago fallida, se permitirá un máximo de tres reintentos. |
-| RD5 | Destinatarios de las estadísticas | Las estadísticas de uso del periódico digital estarán destinadas a administradores y redactores. |
+| RD1 | Comunicación HTTP/REST | Las peticiones del front-end web deberán realizarse mediante HTTP/REST. |
+| RD2 | Pasarela de pago Stripe | Los pagos online deberán gestionarse mediante Stripe. |
+| RD3 | Bases de datos PostgreSQL 19 | El back-end deberá incluir dos bases de datos PostgreSQL 19: una para administradores y redactores y otra para suscriptores. |
+
+## Nota pendiente de revisión con Rafa
+
+La clasificación de los requisitos de dominio es provisional hasta la reunión con Rafa del martes 10 de noviembre.
+
+Queda pendiente aclarar si las condiciones de facturación indicadas en el Anexo I (importes de 70 €, 130 € y 190 €, periodicidades y descuentos de las tres modalidades) y el límite de tres reintentos de pago deben detallarse dentro de las descripciones de sus requisitos funcionales o recogerse como requisitos de dominio. También queda pendiente la ubicación de las demás condiciones explícitas del Anexo, como las categorías de noticias y el anonimato de las suscripciones y sus bajas. Estas condiciones no se consideran eliminadas del alcance del sistema.
