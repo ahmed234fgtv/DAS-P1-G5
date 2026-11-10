@@ -31,7 +31,7 @@ Se interpretan provisionalmente **tres reintentos adicionales al intento inicial
 
 * Good, because el servidor puede respetar el máximo de tres reintentos sin introducir un proceso automático de reintento que el Anexo no exige.
 * Bad, because un pago rechazado no se volverá a intentar salvo que el cliente solicite una nueva petición; además, el contador debe protegerse frente a peticiones simultáneas.
-* Antes de reintentar un pago con resultado desconocido debe aclararse su estado para evitar un doble cobro; no se interpreta automáticamente como fallo confirmado.
+* Bad, because antes de reintentar un pago con resultado desconocido debe aclararse su estado para evitar un doble cobro; no se interpreta automáticamente como fallo confirmado.
 * **Pendiente de Rafa:** confirmar si «permitir reintentar» exige ejecución automática o permite reintentos iniciados por el cliente; hasta entonces esta elección continúa en estado `proposed`.
 
 ### Confirmation

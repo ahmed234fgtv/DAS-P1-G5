@@ -29,7 +29,7 @@ Chosen option: "0004-1 — Catálogo de modalidades con una regla común de cál
 
 * Good, because los tres importes y periodos exigidos se conservan en un único modelo de modalidad, utilizable por el cálculo del vencimiento.
 * Bad, because si aparecieran reglas particulares distintas de la suma de meses habría que revisar la operación común; el Anexo actual no las establece.
-* No se deducen porcentajes de descuento ni reglas de cambio de modalidad que no aparecen en el texto.
+* Good, because no se deducen porcentajes de descuento ni reglas de cambio de modalidad que no aparecen en el texto.
 
 ### Confirmation
 

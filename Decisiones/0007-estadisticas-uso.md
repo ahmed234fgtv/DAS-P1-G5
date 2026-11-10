@@ -13,10 +13,10 @@ El **MADR 0002** propone diferenciar peticiones mediante un identificador de ses
 
 ## Decision Drivers
 
-* **RF07 — Estadísticas de noticias más leídas.**
-* **RF08 — Estadísticas de tiempo de permanencia.**
-* **RF09 — Estadísticas de tasa de rebote.**
-* **RF10 — Estadísticas de conversión de lectores a suscriptores.**
+* **RF07 — Estadísticas de noticias más leídas:** el sistema debe proporcionar a los administradores y redactores estadísticas que permitan identificar las noticias más leídas.
+* **RF08 — Estadísticas de tiempo de permanencia:** el sistema debe proporcionar a los administradores y redactores estadísticas sobre el tiempo de permanencia de los usuarios.
+* **RF09 — Estadísticas de tasa de rebote:** el sistema debe proporcionar a los administradores y redactores estadísticas sobre las tasas de rebote.
+* **RF10 — Estadísticas de conversión:** el sistema debe proporcionar a los administradores y redactores estadísticas sobre la conversión de lectores a suscriptores.
 
 ## Considered Options
 
