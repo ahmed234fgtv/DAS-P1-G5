@@ -32,7 +32,7 @@ La propuesta queda pendiente de la revisión de Jordi y del contraste posterior 
 
 * Good, because la separación entre el cliente web, la lógica de aplicación y las integraciones permite ubicar sin ambigüedad las responsabilidades de suscripciones, pagos y estadísticas en los diagramas sucesivos.
 * Bad, because el back-end comparte un mismo despliegue lógico: un fallo o un crecimiento de carga en un módulo puede afectar a los demás y obliga a mantener límites internos claros.
-* La elección no obliga a utilizar una SPA, un framework, un lenguaje ni un mecanismo concreto de despliegue.
+* Good, because la elección no obliga a utilizar una SPA, un framework, un lenguaje ni un mecanismo concreto de despliegue.
 
 ### Confirmation
 

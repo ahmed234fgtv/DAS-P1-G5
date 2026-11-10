@@ -15,7 +15,7 @@
 | RF09 | Estadísticas de tasa de rebote | El sistema deberá proporcionar a los administradores y redactores estadísticas sobre las tasas de rebote. |
 | RF10 | Estadísticas de conversión | El sistema deberá proporcionar a los administradores y redactores estadísticas sobre la conversión de lectores a suscriptores. |
 
-## Requisitos de dominio (provisionales)
+## Requisitos de dominio
 
 | ID | Nombre | Descripción |
 | --- | --- | --- |
@@ -25,6 +25,4 @@
 
 ## Nota pendiente de revisión con Rafa
 
-La clasificación de los requisitos de dominio es provisional hasta la reunión con Rafa del martes 10 de noviembre.
-
-Queda pendiente aclarar si las condiciones de facturación indicadas en el Anexo I (importes de 70 €, 130 € y 190 €, periodicidades y descuentos de las tres modalidades) y el límite de tres reintentos de pago deben detallarse dentro de las descripciones de sus requisitos funcionales o recogerse como requisitos de dominio. También queda pendiente la ubicación de las demás condiciones explícitas del Anexo, como las categorías de noticias y el anonimato de las suscripciones y sus bajas. Estas condiciones no se consideran eliminadas del alcance del sistema.
+Queda pendiente aclarar el límite de tres reintentos de pago deben detallarse dentro de las descripciones de sus requisitos funcionales o recogerse como requisitos de dominio. También queda pendiente la ubicación de las demás condiciones explícitas del Anexo, como las categorías de noticias y el anonimato de las suscripciones y sus bajas. Estas condiciones no se consideran eliminadas del alcance del sistema.

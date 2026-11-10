@@ -23,7 +23,7 @@ Todas las alternativas representan las tres modalidades; ninguna plantea añadir
 
 ## Decision Outcome
 
-Chosen option: "0004-1 — Catálogo de modalidades con regla común", because las tres modalidades difieren, según el Anexo, solo en **importe y número de meses**, y pueden compartir la misma operación de cálculo sin introducir una jerarquía de clases específica ni duplicar valores dentro de condicionales.
+Chosen option: "0004-1 — Catálogo de modalidades con una regla común de cálculo", because las tres modalidades difieren, según el Anexo, solo en **importe y número de meses**, y pueden compartir la misma operación de cálculo sin introducir una jerarquía de clases específica ni duplicar valores dentro de condicionales.
 
 ### Consequences
 
@@ -37,7 +37,7 @@ En UML se comprobará que la **modalidad de facturación** reúne el importe y e
 
 ## Pros and Cons of the Options
 
-### 0004-1 — Catálogo de modalidades con regla común
+### 0004-1 — Catálogo de modalidades con una regla común de cálculo
 
 * Good, because los tres importes y las tres periodicidades quedan definidos en un único lugar verificable frente al Anexo.
 * Good, because el diagrama necesita una representación de **ModalidadFacturación** y un servicio de cálculo, sin tres clases que repitan esencialmente el mismo comportamiento.
