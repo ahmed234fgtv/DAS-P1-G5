@@ -1,16 +1,30 @@
 # Decisiones arquitectónicas
 
-Las decisiones se documentan siguiendo la plantilla [adr-template.md](./adr-template.md) y se numeran consecutivamente.
+Las decisiones se documentan siguiendo la plantilla [adr-template.md](./adr-template.md). Las versiones anteriores y sus anulaciones se conservan en esta carpeta para reflejar los cambios del diseño.
 
-## Decisiones
+## Decisiones vigentes
 
-1. [0001 — Selección del estilo arquitectónico del periódico digital](./0001-estilo-arquitectonico.md)
-2. [0002 — Mecanismo de diferenciación de clientes](./0002-diferenciacion-clientes.md)
-3. [0003 — Gestión anónima del ciclo de vida de las suscripciones a noticias](./0003-ciclo-vida-suscripciones.md)
-4. [0004 — Representación de las modalidades y ciclos de facturación](./0004-modalidades-facturacion.md)
-5. [0005 — Límite de integración de los pagos online con Stripe](./0005-integracion-stripe.md)
-6. [0006 — Control de los reintentos de pagos fallidos](./0006-reintentos-pagos.md)
-7. [0007 — Obtención de datos y cálculo de las estadísticas de uso](./0007-estadisticas-uso.md)
-8. [0008 — Organización del acceso a las dos bases de datos PostgreSQL 19](./0008-acceso-bases-datos.md)
+1. [0001-4 — Selección del estilo arquitectónico del periódico digital](./0001-4-estilo-arquitectonico.md)
+2. [0002-4 — Diferenciación de clientes y medición de uso para las estadísticas](./0002-4-diferenciacion-clientes-estadisticas.md)
+3. [0003-4 — Gestión anónima de suscripciones a noticias y sus bajas](./0003-4-suscripciones-anonimas.md)
+4. [0004-4 — Organización de la facturación y el cobro de suscripciones](./0004-4-facturacion-cobro.md)
+5. [0005-4 — Organización del acceso a las dos bases de datos PostgreSQL 19](./0005-4-acceso-bases-datos.md)
 
-Todas las decisiones están en estado `proposed` hasta completar su revisión y aprobación por el grupo.
+Estas cinco decisiones están en estado `proposed` mientras no se cambie formalmente su estado.
+
+## Reorganización de las decisiones anteriores
+
+| Decisión anterior | Situación actual |
+| --- | --- |
+| 0001-2 | Sustituida por 0001-4; se conserva la elección de estilo. |
+| 0002-2 | Incorporada a 0002-4 junto con las estadísticas de uso. |
+| 0003-2 | Sustituida por 0003-4; se conserva el mecanismo de suscripción y baja anónimas. |
+| 0004-2 | Integrada en 0004-4 junto con pagos y reintentos. |
+| 0005-2 | Integrada en 0004-4: pagos mediante Stripe. |
+| 0006-2 | Integrada en 0004-4: control de reintentos. |
+| 0007-2 | Integrada en 0002-4: estadísticas y diferenciación de clientes. |
+| 0008-2 | Reorganizada como 0005-4: acceso a las bases de datos PostgreSQL 19. |
+
+Las anulaciones se registran en los archivos `0001-3` a `0008-3`, uno por decisión. Los documentos originales y sus versiones `-2` no se han borrado ni modificado.
+
+La numeración `0005-4` identifica ahora la decisión de acceso a las bases de datos. No debe confundirse con la antigua decisión `0005` sobre Stripe, cuyo contenido queda integrado en `0004-4`.
