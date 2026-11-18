@@ -52,5 +52,5 @@ El UML debe situar la responsabilidad de crear y comprobar identificadores de se
 
 * Requisito(s) motivador(es): RF02 — [tabla de requisitos](https://github.com/ahmed234fgtv/DAS-P1-G5/blob/main/Requisitos/requisitos.md).
 * Fuente: Anexo I y enunciado de la Práctica 1, curso 2026-2027.
-* Versión: sustituye a [MADR 0002](./0002-diferenciacion-clientes.md). La anulación anterior queda registrada como 0002-1.
+* Versión: sustituye a [MADR 0002](../Semana%201/0002-diferenciacion-clientes.md). La anulación anterior queda registrada como 0002-1.
 * Decisiones relacionadas: MADR 0007-2; los datos de sesión pueden ayudar a agrupar interacciones, pero no sustituyen las mediciones necesarias para las estadísticas.

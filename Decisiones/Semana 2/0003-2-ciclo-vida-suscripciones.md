@@ -62,5 +62,5 @@ El UML debe incluir las responsabilidades de gestionar altas y bajas anónimas d
 
 * Requisito(s) motivador(es): RF03, RF04 — [tabla de requisitos](https://github.com/ahmed234fgtv/DAS-P1-G5/blob/main/Requisitos/requisitos.md).
 * Fuente: Anexo I y enunciado de la Práctica 1, curso 2026-2027.
-* Versión: sustituye a [MADR 0003](./0003-ciclo-vida-suscripciones.md). La anulación anterior queda registrada como 0003-1.
+* Versión: sustituye a [MADR 0003](../Semana%201/0003-ciclo-vida-suscripciones.md). La anulación anterior queda registrada como 0003-1.
 * Decisiones relacionadas: MADR 0002-2 (diferenciación de clientes) y MADR 0007-2 (estadísticas); estas referencias no añaden otros drivers.

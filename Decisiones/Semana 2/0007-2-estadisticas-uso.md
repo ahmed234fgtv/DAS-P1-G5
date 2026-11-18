@@ -56,5 +56,5 @@ El UML debe distinguir las responsabilidades de registrar información de uso y 
 
 * Requisito(s) motivador(es): RF08, RF09, RF10, RF11 — [tabla de requisitos](https://github.com/ahmed234fgtv/DAS-P1-G5/blob/main/Requisitos/requisitos.md).
 * Fuente: Anexo I y enunciado de la Práctica 1, curso 2026-2027.
-* Versión: sustituye a [MADR 0007](./0007-estadisticas-uso.md). La anulación anterior queda registrada como 0007-1.
+* Versión: sustituye a [MADR 0007](../Semana%201/0007-estadisticas-uso.md). La anulación anterior queda registrada como 0007-1.
 * Decisiones relacionadas: MADR 0002-2 (agrupación por sesión) y MADR 0003-2 (altas de suscripción); las referencias no incorporan sus drivers.

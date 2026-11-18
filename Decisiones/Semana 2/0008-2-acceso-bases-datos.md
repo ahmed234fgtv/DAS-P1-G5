@@ -53,5 +53,5 @@ El UML debe mostrar dos responsabilidades de acceso diferenciadas, representable
 
 * Requisito(s) motivador(es): RD3 — [tabla de requisitos](https://github.com/ahmed234fgtv/DAS-P1-G5/blob/main/Requisitos/requisitos.md).
 * Fuente: Anexo I y enunciado de la Práctica 1, curso 2026-2027.
-* Versión: sustituye a [MADR 0008](./0008-acceso-bases-datos.md). La anulación anterior queda registrada como 0008-1.
+* Versión: sustituye a [MADR 0008](../Semana%201/0008-acceso-bases-datos.md). La anulación anterior queda registrada como 0008-1.
 * Decisiones relacionadas: MADR 0001-2, que fija la estructura general. Aunque el RF01 también menciona las bases, su driver corresponde a la elección del estilo; aquí se utiliza RD3 para decidir el modo de acceso.

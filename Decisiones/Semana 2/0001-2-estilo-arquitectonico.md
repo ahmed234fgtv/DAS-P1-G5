@@ -53,5 +53,5 @@ En el UML inicial deben distinguirse el paquete o elemento del front-end web, la
 
 * Requisito(s) motivador(es): RF01, RD1 — [tabla de requisitos](https://github.com/ahmed234fgtv/DAS-P1-G5/blob/main/Requisitos/requisitos.md).
 * Fuente: Anexo I y enunciado de la Práctica 1, curso 2026-2027.
-* Versión: sustituye a [MADR 0001](./0001-estilo-arquitectonico.md). La anulación anterior queda registrada como 0001-1.
+* Versión: sustituye a [MADR 0001](../Semana%201/0001-estilo-arquitectonico.md). La anulación anterior queda registrada como 0001-1.
 * Decisiones relacionadas: MADR 0002-2 a 0008-2, que concretan responsabilidades dentro de la estructura seleccionada, sin reutilizar aquí sus requisitos como drivers.

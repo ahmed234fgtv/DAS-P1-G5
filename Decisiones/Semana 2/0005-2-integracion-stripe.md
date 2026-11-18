@@ -53,5 +53,5 @@ El UML debe distinguir el componente o paquete de pagos de aplicación del adapt
 
 * Requisito(s) motivador(es): RF06, RD2 — [tabla de requisitos](https://github.com/ahmed234fgtv/DAS-P1-G5/blob/main/Requisitos/requisitos.md).
 * Fuente: Anexo I y enunciado de la Práctica 1, curso 2026-2027.
-* Versión: sustituye a [MADR 0005](./0005-integracion-stripe.md). La anulación anterior queda registrada como 0005-1.
+* Versión: sustituye a [MADR 0005](../Semana%201/0005-integracion-stripe.md). La anulación anterior queda registrada como 0005-1.
 * Decisiones relacionadas: MADR 0004-2 (ciclos de facturación) y MADR 0006-2 (reintentos); sus requisitos no se repiten aquí como drivers.

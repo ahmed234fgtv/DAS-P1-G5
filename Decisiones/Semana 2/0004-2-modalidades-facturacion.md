@@ -60,5 +60,5 @@ El UML debe incluir una representación de modalidad de facturación con importe
 
 * Requisito(s) motivador(es): RF05 — [tabla de requisitos](https://github.com/ahmed234fgtv/DAS-P1-G5/blob/main/Requisitos/requisitos.md).
 * Fuente: Anexo I y enunciado de la Práctica 1, curso 2026-2027.
-* Versión: sustituye a [MADR 0004](./0004-modalidades-facturacion.md). La anulación anterior queda registrada como 0004-1.
+* Versión: sustituye a [MADR 0004](../Semana%201/0004-modalidades-facturacion.md). La anulación anterior queda registrada como 0004-1.
 * Decisiones relacionadas: MADR 0005-2, encargado de la integración del cobro sin volver a tomar RF05 como driver.

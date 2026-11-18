@@ -62,5 +62,5 @@ Revisaremos el caso de un lector que solicita la baja después de que caduque la
 
 * Requisito(s) motivador(es): RF03, RF04 — [tabla de requisitos](https://github.com/ahmed234fgtv/DAS-P1-G5/blob/main/Requisitos/requisitos.md).
 * Fuente: Anexo I y enunciado de la Práctica 1, curso 2026-2027.
-* Versión: sustituye al [MADR 0003-4](./0003-4-suscripciones-anonimas.md), según consta en la [anulación 0003-5](./0003-5%20Anulamos%20Gesti%C3%B3n%20an%C3%B3nima%20de%20las%20suscripciones%20a%20noticias%20y%20sus%20bajas.md).
+* Versión: sustituye al [MADR 0003-4](../Semana%202/0003-4-suscripciones-anonimas.md), según consta en la [anulación 0003-5](./0003-5%20Anulamos%20Gesti%C3%B3n%20an%C3%B3nima%20de%20las%20suscripciones%20a%20noticias%20y%20sus%20bajas.md).
 * Decisiones relacionadas: MADR [0002-6](./0002-6%20%E2%80%94%20Diferenciaci%C3%B3n%20de%20clientes%20y%20medici%C3%B3n%20de%20uso%20para%20las%20estad%C3%ADsticas.md) (diferenciación de clientes y estadísticas); esta referencia no añade otros drivers.

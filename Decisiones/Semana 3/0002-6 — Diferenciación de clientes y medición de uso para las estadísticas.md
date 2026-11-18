@@ -66,5 +66,5 @@ Revisaremos varias peticiones de dos sesiones distintas para comprobar que las i
 
 * Requisito(s) motivador(es): RF02, RF08, RF09, RF10, RF11 — [tabla de requisitos](https://github.com/ahmed234fgtv/DAS-P1-G5/blob/main/Requisitos/requisitos.md).
 * Fuente: Anexo I y enunciado de la Práctica 1, curso 2026-2027.
-* Versión: sustituye al [MADR 0002-4](./0002-4-diferenciacion-clientes-estadisticas.md), según consta en la [anulación 0002-5](./0002-5%20Anulamos%20Diferenciaci%C3%B3n%20de%20clientes%20y%20medici%C3%B3n%20de%20uso%20para%20las%20estad%C3%ADsticas.md).
+* Versión: sustituye al [MADR 0002-4](../Semana%202/0002-4-diferenciacion-clientes-estadisticas.md), según consta en la [anulación 0002-5](./0002-5%20Anulamos%20Diferenciaci%C3%B3n%20de%20clientes%20y%20medici%C3%B3n%20de%20uso%20para%20las%20estad%C3%ADsticas.md).
 * Decisión relacionada: el MADR [0003-6](./0003-6%20%E2%80%94%20Gesti%C3%B3n%20an%C3%B3nima%20de%20las%20suscripciones%20a%20noticias%20y%20sus%20bajas.md) describe el alta de suscripciones a noticias. Queda por concretar cómo se utilizará ese dato para calcular la conversión.

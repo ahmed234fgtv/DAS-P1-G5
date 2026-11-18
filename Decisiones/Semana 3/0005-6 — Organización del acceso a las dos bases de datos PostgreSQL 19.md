@@ -53,5 +53,5 @@ Seguiremos una consulta de datos de administradores o redactores y otra de suscr
 
 * Requisito(s) motivador(es): RD3 — [tabla de requisitos](https://github.com/ahmed234fgtv/DAS-P1-G5/blob/main/Requisitos/requisitos.md).
 * Fuente: Anexo I y enunciado de la Práctica 1, curso 2026-2027.
-* Versión: sustituye al [MADR 0005-4](./0005-4-acceso-bases-datos.md), según consta en la [anulación 0005-5](./0005-5%20Anulamos%20Organizaci%C3%B3n%20del%20acceso%20a%20las%20dos%20bases%20de%20datos%20PostgreSQL%2019.md).
+* Versión: sustituye al [MADR 0005-4](../Semana%202/0005-4-acceso-bases-datos.md), según consta en la [anulación 0005-5](./0005-5%20Anulamos%20Organizaci%C3%B3n%20del%20acceso%20a%20las%20dos%20bases%20de%20datos%20PostgreSQL%2019.md).
 * Decisiones relacionadas: MADR [0001-6](./0001-6%20%E2%80%94%20Selecci%C3%B3n%20del%20estilo%20arquitect%C3%B3nico%20del%20peri%C3%B3dico%20digital.md), que fija la estructura general. Aunque el RF01 también menciona las bases, su driver corresponde a la elección del estilo; aquí se utiliza RD3 para decidir el modo de acceso.

@@ -25,7 +25,7 @@ Para cumplir estas condiciones hay que coordinar la modalidad elegida, la fecha 
 
 Chosen option: "Opción B — Responsabilidades de facturación y pagos separadas dentro del back-end", because permite tratar los importes y vencimientos sin mezclarlos con los resultados de la pasarela, y deja el límite de tres reintentos junto a la operación de pago que debe controlarlos. No hace falta que las clases de facturación conozcan las respuestas de Stripe y tampoco se añade un proceso de cobro independiente del back-end.
 
-Las dos opciones utilizan el patrón Adapter para concentrar la integración con Stripe. El adaptador traduce las peticiones de cobro y las respuestas de la pasarela, de modo que los detalles de Stripe quedan en la integración. En el [MADR 0004-2](./0004-2-modalidades-facturacion.md) se valoró Strategy. Se descartó porque las modalidades tienen importes y periodos distintos y comparten la misma regla de vencimiento.
+Las dos opciones utilizan el patrón Adapter para concentrar la integración con Stripe. El adaptador traduce las peticiones de cobro y las respuestas de la pasarela, de modo que los detalles de Stripe quedan en la integración. En el [MADR 0004-2](../Semana%202/0004-2-modalidades-facturacion.md) se valoró Strategy. Se descartó porque las modalidades tienen importes y periodos distintos y comparten la misma regla de vencimiento.
 
 ### Consequences
 
@@ -59,5 +59,5 @@ Revisaremos un cobro de cada modalidad para comprobar el importe, el vencimiento
 
 * Requisitos motivadores: RF05, RF06, RF07 y RD2 — [tabla de requisitos](https://github.com/ahmed234fgtv/DAS-P1-G5/blob/main/Requisitos/requisitos.md).
 * Fuente: Anexo I y enunciado de la Práctica 1, curso 2026-2027.
-* Versión: sustituye al [MADR 0004-4](./0004-4-facturacion-cobro.md), según consta en la [anulación 0004-5](./0004-5%20Anulamos%20Organizaci%C3%B3n%20de%20la%20facturaci%C3%B3n%20y%20el%20cobro%20de%20suscripciones.md).
+* Versión: sustituye al [MADR 0004-4](../Semana%202/0004-4-facturacion-cobro.md), según consta en la [anulación 0004-5](./0004-5%20Anulamos%20Organizaci%C3%B3n%20de%20la%20facturaci%C3%B3n%20y%20el%20cobro%20de%20suscripciones.md).
 * Decisión relacionada: MADR [0001-6](./0001-6%20%E2%80%94%20Selecci%C3%B3n%20del%20estilo%20arquitect%C3%B3nico%20del%20peri%C3%B3dico%20digital.md), que establece la estructura de capas; este MADR concreta la distribución interna de las responsabilidades del cobro.

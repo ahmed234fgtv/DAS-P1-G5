@@ -60,5 +60,5 @@ El UML deberá localizar en el back-end una responsabilidad para comprobar y act
 
 * Requisito(s) motivador(es): RF07 — [tabla de requisitos](https://github.com/ahmed234fgtv/DAS-P1-G5/blob/main/Requisitos/requisitos.md).
 * Fuente: Anexo I y enunciado de la Práctica 1, curso 2026-2027.
-* Versión: sustituye a [MADR 0006](./0006-reintentos-pagos.md). La anulación anterior queda registrada como 0006-1.
+* Versión: sustituye a [MADR 0006](../Semana%201/0006-reintentos-pagos.md). La anulación anterior queda registrada como 0006-1.
 * Decisiones relacionadas: MADR 0005-2, que delimita la integración con Stripe y no repite el RF07 como driver.
