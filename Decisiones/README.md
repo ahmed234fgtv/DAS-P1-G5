@@ -4,17 +4,23 @@ Las decisiones se documentan siguiendo la plantilla [adr-template.md](./adr-temp
 
 ## Decisiones vigentes
 
-1. [0001-6 — Selección del estilo arquitectónico del periódico digital](./Semana%203/0001-6%20%E2%80%94%20Selecci%C3%B3n%20del%20estilo%20arquitect%C3%B3nico%20del%20peri%C3%B3dico%20digital.md)
-2. [0002-6 — Diferenciación de clientes y medición de uso para las estadísticas](./Semana%203/0002-6%20%E2%80%94%20Diferenciaci%C3%B3n%20de%20clientes%20y%20medici%C3%B3n%20de%20uso%20para%20las%20estad%C3%ADsticas.md)
-3. [0003-6 — Gestión anónima de las suscripciones a noticias y sus bajas](./Semana%203/0003-6%20%E2%80%94%20Gesti%C3%B3n%20an%C3%B3nima%20de%20las%20suscripciones%20a%20noticias%20y%20sus%20bajas.md)
-4. [0004-6 — Organización de la facturación y el cobro de suscripciones](./Semana%203/0004-6%20%E2%80%94%20Organizaci%C3%B3n%20de%20la%20facturaci%C3%B3n%20y%20el%20cobro%20de%20suscripciones.md)
-5. [0005-6 — Organización del acceso a las dos bases de datos PostgreSQL 19](./Semana%203/0005-6%20%E2%80%94%20Organizaci%C3%B3n%20del%20acceso%20a%20las%20dos%20bases%20de%20datos%20PostgreSQL%2019.md)
+1. [0001-8 — Selección del estilo arquitectónico del periódico digital](<./Semana 3/0001-8 — Selección del estilo arquitectónico del periódico digital.md>)
+2. [0002-6 — Diferenciación de clientes y medición de uso para las estadísticas](<./Semana 3/0002-6 — Diferenciación de clientes y medición de uso para las estadísticas.md>)
+3. [0003-6 — Gestión anónima de las suscripciones a noticias y sus bajas](<./Semana 3/0003-6 — Gestión anónima de las suscripciones a noticias y sus bajas.md>)
+4. [0004-8 — Organización de la facturación y el cobro de suscripciones](<./Semana 3/0004-8 — Organización de la facturación y el cobro de suscripciones.md>)
+5. [0005-8 — Organización del acceso a las dos bases de datos PostgreSQL 19](<./Semana 3/0005-8 — Organización del acceso a las dos bases de datos PostgreSQL 19.md>)
 
-Estas cinco decisiones están en estado `proposed` mientras no se cambie formalmente su estado.
+## Sustitución de las versiones `-6`
+
+| Versión anterior | Anulación | Versión sucesora |
+| --- | --- | --- |
+| [0001-6](<./Semana 3/0001-6 — Selección del estilo arquitectónico del periódico digital.md>) | [0001-7](<./Semana 3/0001-7 Anulamos Selección del estilo arquitectónico del periódico digital.md>) | [0001-8](<./Semana 3/0001-8 — Selección del estilo arquitectónico del periódico digital.md>) |
+| [0004-6](<./Semana 3/0004-6 — Organización de la facturación y el cobro de suscripciones.md>) | [0004-7](<./Semana 3/0004-7 Anulamos Organización de la facturación y el cobro de suscripciones.md>) | [0004-8](<./Semana 3/0004-8 — Organización de la facturación y el cobro de suscripciones.md>) |
+| [0005-6](<./Semana 3/0005-6 — Organización del acceso a las dos bases de datos PostgreSQL 19.md>) | [0005-7](<./Semana 3/0005-7 Anulamos Organización del acceso a las dos bases de datos PostgreSQL 19.md>) | [0005-8](<./Semana 3/0005-8 — Organización del acceso a las dos bases de datos PostgreSQL 19.md>) |
 
 ## Sustitución de las versiones `-4`
 
-| Versión anterior | Anulación | Versión vigente |
+| Versión anterior | Anulación | Versión sucesora |
 | --- | --- | --- |
 | [0001-4](./Semana%202/0001-4-estilo-arquitectonico.md) | [0001-5](./Semana%203/0001-5%20Anulamos%20Selecci%C3%B3n%20del%20estilo%20arquitect%C3%B3nico%20del%20peri%C3%B3dico%20digital.md) | [0001-6](./Semana%203/0001-6%20%E2%80%94%20Selecci%C3%B3n%20del%20estilo%20arquitect%C3%B3nico%20del%20peri%C3%B3dico%20digital.md) |
 | [0002-4](./Semana%202/0002-4-diferenciacion-clientes-estadisticas.md) | [0002-5](./Semana%203/0002-5%20Anulamos%20Diferenciaci%C3%B3n%20de%20clientes%20y%20medici%C3%B3n%20de%20uso%20para%20las%20estad%C3%ADsticas.md) | [0002-6](./Semana%203/0002-6%20%E2%80%94%20Diferenciaci%C3%B3n%20de%20clientes%20y%20medici%C3%B3n%20de%20uso%20para%20las%20estad%C3%ADsticas.md) |
@@ -37,4 +43,4 @@ Estas cinco decisiones están en estado `proposed` mientras no se cambie formalm
 
 Las anulaciones de estas versiones se registran en los archivos `0001-3` a `0008-3`. Los documentos originales y las versiones `-2` y `-4` se conservan para poder seguir la evolución de las decisiones.
 
-La decisión vigente sobre acceso a las bases de datos es [0005-6](./Semana%203/0005-6%20%E2%80%94%20Organizaci%C3%B3n%20del%20acceso%20a%20las%20dos%20bases%20de%20datos%20PostgreSQL%2019.md). La antigua decisión `0005` trataba sobre Stripe, cuya integración se recoge en [0004-6](./Semana%203/0004-6%20%E2%80%94%20Organizaci%C3%B3n%20de%20la%20facturaci%C3%B3n%20y%20el%20cobro%20de%20suscripciones.md).
+La decisión vigente sobre acceso a las bases de datos es [0005-8](<./Semana 3/0005-8 — Organización del acceso a las dos bases de datos PostgreSQL 19.md>). La antigua decisión `0005` trataba sobre Stripe, cuyo uso en el cobro se recoge en [0004-8](<./Semana 3/0004-8 — Organización de la facturación y el cobro de suscripciones.md>).
