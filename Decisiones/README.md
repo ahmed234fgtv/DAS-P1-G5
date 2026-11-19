@@ -4,11 +4,17 @@ Las decisiones se documentan siguiendo la plantilla [adr-template.md](./adr-temp
 
 ## Decisiones vigentes
 
-1. [0001-8 — Selección del estilo arquitectónico del periódico digital](<./Semana 3/0001-8 — Selección del estilo arquitectónico del periódico digital.md>)
+1. [0001-10 — Selección del estilo arquitectónico del periódico digital](<./Semana 3/0001-10 — Selección del estilo arquitectónico del periódico digital.md>)
 2. [0002-6 — Diferenciación de clientes y medición de uso para las estadísticas](<./Semana 3/0002-6 — Diferenciación de clientes y medición de uso para las estadísticas.md>)
 3. [0003-6 — Gestión anónima de las suscripciones a noticias y sus bajas](<./Semana 3/0003-6 — Gestión anónima de las suscripciones a noticias y sus bajas.md>)
 4. [0004-8 — Organización de la facturación y el cobro de suscripciones](<./Semana 3/0004-8 — Organización de la facturación y el cobro de suscripciones.md>)
 5. [0005-8 — Organización del acceso a las dos bases de datos PostgreSQL 19](<./Semana 3/0005-8 — Organización del acceso a las dos bases de datos PostgreSQL 19.md>)
+
+## Revisión del estilo arquitectónico
+
+| Versión anterior | Anulación | Versión sucesora |
+| --- | --- | --- |
+| [0001-8](<./Semana 3/0001-8 — Selección del estilo arquitectónico del periódico digital.md>) | [0001-9](<./Semana 3/0001-9 Anulamos Selección del estilo arquitectónico del periódico digital.md>) | [0001-10](<./Semana 3/0001-10 — Selección del estilo arquitectónico del periódico digital.md>) |
 
 ## Sustitución de las versiones `-6`
 

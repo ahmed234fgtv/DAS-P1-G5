@@ -48,4 +48,4 @@ Comprobaremos que una consulta de datos de administradores o redactores accede a
 * Requisito(s) motivador(es): RD3 — [tabla de requisitos](https://github.com/ahmed234fgtv/DAS-P1-G5/blob/main/Requisitos/requisitos.md).
 * Fuente: Anexo I y enunciado de la Práctica 1, curso 2026-2027.
 * Versión: sustituye al [MADR 0005-6](<./0005-6 — Organización del acceso a las dos bases de datos PostgreSQL 19.md>), según consta en la [anulación 0005-7](<./0005-7 Anulamos Organización del acceso a las dos bases de datos PostgreSQL 19.md>).
-* Decisión relacionada: [MADR 0001-8](<./0001-8 — Selección del estilo arquitectónico del periódico digital.md>), que fija la estructura general. Aunque el RF01 también menciona las bases, su driver corresponde a la elección del estilo. Aquí se utiliza RD3 para decidir el modo de acceso.
+* Decisión relacionada: [MADR 0001-10](<./0001-10 — Selección del estilo arquitectónico del periódico digital.md>)

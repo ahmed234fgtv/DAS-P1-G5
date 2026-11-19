@@ -51,4 +51,4 @@ Comprobaremos que para las modalidades trimestral, semestral y anual se aplican 
 * Requisitos motivadores: RF05, RF06, RF07 y RD2 — [tabla de requisitos](https://github.com/ahmed234fgtv/DAS-P1-G5/blob/main/Requisitos/requisitos.md).
 * Fuente: Anexo I y enunciado de la Práctica 1, curso 2026-2027.
 * Versión: sustituye al [MADR 0004-6](<./0004-6 — Organización de la facturación y el cobro de suscripciones.md>), según consta en la [anulación 0004-7](<./0004-7 Anulamos Organización de la facturación y el cobro de suscripciones.md>).
-* Decisión relacionada: [MADR 0001-8](<./0001-8 — Selección del estilo arquitectónico del periódico digital.md>), que establece el estilo arquitectónico.
+* Decisión relacionada: [MADR 0001-10](<./0001-10 — Selección del estilo arquitectónico del periódico digital.md>)
